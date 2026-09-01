@@ -1,0 +1,6 @@
+# io-net-api-recharge 运行依赖
+# 安装：pip install -r requirements.txt
+
+curl_cffi>=0.7.0      # 提供 impersonate="chrome" TLS 指纹伪装，绕过 Cloudflare key_set 拦截
+solders>=0.23.0       # 底层 Solana 类型：Keypair / VersionedTransaction 离线签名
+base58>=2.1.1         # 私钥 base58 编解码（测试与工具辅助）

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 本地敏感配置与中间产物（切勿提交！）
+config.json
+*.secret
+.env
+recharge_payload.json
+foxmail_signed.json
+sample_tx.json
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+*.log

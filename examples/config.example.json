@@ -1,0 +1,27 @@
+{
+  "rpc": "https://solana-rpc.publicnode.com",
+
+  "min_gap": 8,
+  "max_gap": 25,
+  "step_size": 10,
+  "step_cooldown": 60,
+  "max_retries": 3,
+  "backoff_base": 2.0,
+
+  "accounts": [
+    {
+      "name": "foxmail-1",
+      "refresh_cookie": "在此填入 workos_refresh_token 值（io.net 登录后 cookie 中获取）",
+      "secret_base58": "在此填入付款钱包私钥（base58，64 字节）",
+      "pubkey": "在此填入付款钱包公钥",
+      "amount": "10"
+    },
+    {
+      "name": "foxmail-2",
+      "refresh_cookie": "第二个账号的 workos_refresh_token",
+      "secret_base58": "第二个付款钱包私钥",
+      "pubkey": "第二个付款钱包公钥",
+      "amount": "10"
+    }
+  ]
+}
